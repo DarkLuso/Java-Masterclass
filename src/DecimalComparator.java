@@ -8,5 +8,5 @@ public class DecimalComparator {
         return xInt == yInt;
 
     }
-    
+
 }
