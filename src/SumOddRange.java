@@ -14,12 +14,10 @@ public class SumOddRange {
         else {
             int result = 0;
 
-            for (int i = start; i <= end; i++){
+            for (; start <= end; start++)
+                if (isOdd(start))
+                    result += start;
 
-                if (isOdd(i))
-                    result += i;
-
-            }
             return result;
         }
 
