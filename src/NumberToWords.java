@@ -91,7 +91,7 @@ public class NumberToWords {
     public static int reverse (int number){
 
         /**
-         * I can't use the getDigitCount in this method, because he need's to return negative numbers,
+         * I can't use the getDigitCount in this method, because he needs to return negative numbers,
          * and the exercise ask you to return -1 if number is negative in getDigitCount.
          */
 
