@@ -12,11 +12,11 @@ public class SimpleCalculator {
     }
 
     public void setFirstNumber (double number){
-        firstNumber = number;
+       this.firstNumber = number;
     }
 
     public void setSecondNumber (double number){
-        secondNumber = number;
+        this.secondNumber = number;
     }
 
     public double getAdditionResult (){
